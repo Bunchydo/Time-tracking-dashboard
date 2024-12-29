@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Time tracking dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="main_container">
+        <div class="profile-holding-container">
+          <div class="Profile_container">
+            <div class="leftside"><img class="jeremy_image" src="images/image-jeremy.png" alt="" /> </div>
+            <div class="rightside">
+              <p>Report for</p> 
+              <h1>
+                Jeremy <br />
+                Robson
+              </h1></div>
+            
+
+
+
+
+            
+          </div>
+
+          <div class="View_Chooser">
+            <ol>
+              <li id="dailyButton">Daily</li>
+
+              <li id="weeklyButton">Weekly</li>
+
+              <li id="monthlyButton">Monthly</li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="holding-container">
+          <div class="work-top-container">
+            <img
+              class="top-container-image"
+              src="images/icon-work.svg"
+              alt=""
+            />
+          </div>
+          <div class="work_container">
+            <span class="top-row">
+              <p class="title">Work</p>
+              <img src="images/icon-ellipsis.svg" alt=""
+            /></span>
+            <span class="h1-and-time"
+              ><h1 class="current-time" id="timeForWork"></h1>
+
+              <p class="last-week" id="timeForWorkLastWeek"></p
+            ></span>
+            <span class="h1-and-time"></span>
+          </div>
+        </div>
+
+        <div class="holding-container">
+          <div class="play-top-container">
+            <img
+              class="top-container-image"
+              src="images/icon-play.svg"
+              alt=""
+            />
+          </div>
+          <div class="play_container">
+            <span class="top-row">
+              <p class="title">Play</p>
+              <img src="images/icon-ellipsis.svg" alt=""
+            /></span>
+
+            <span class="h1-and-time"
+              ><h1 class="current-time" id="timeForPlay"></h1>
+
+              <p class="last-week" id="timeForPlayLastWeek"></p
+            ></span>
+          </div>
+        </div>
+        <div class="holding-container">
+          <div class="study-top-container">
+            <img
+              class="top-container-image"
+              src="images/icon-study.svg"
+              alt=""
+            />
+          </div>
+          <div class="Study_container">
+            <span class="top-row">
+              <p class="title">Study</p>
+              <img src="images/icon-ellipsis.svg" alt=""
+            /></span>
+
+            <span class="h1-and-time"><h1 class="current-time" id="timeForStudy"></h1>
+
+              <p class="last-week" id="timeForStudyLastWeek"></p></span>
+
+            
+          </div>
+        </div>
+
+        <div class="holding-container">
+          <div class="exercise-top-container">
+            <img
+              class="top-container-image"
+              src="images/icon-exercise.svg"
+              alt=""
+            />
+          </div>
+          <div class="Exercise_container">
+            <span class="top-row">
+              <p class="title">Exercise</p>
+              <img src="images/icon-ellipsis.svg" alt=""
+            /></span>
+
+
+            <span class="h1-and-time" ><h1 class="current-time" id="timeForExercise"></h1>
+
+              <p class="last-week" id="timeForExerciseLastWeek"></p></span>
+            
+          </div>
+        </div>
+        <div class="holding-container">
+          <div class="social-top-container">
+            <img
+              class="top-container-image"
+              src="images/icon-social.svg"
+              alt=""
+            />
+          </div>
+          <div class="Social_container">
+            <span class="top-row">
+              <p class="title">Social</p>
+              <img src="images/icon-ellipsis.svg" alt=""
+            /></span>
+
+            <span class="h1-and-time"
+              ><h1 class="current-time" id="timeForSocial"></h1>
+
+              <p class="last-week" id="timeForSocialLastWeek"></p
+            ></span>
+          </div>
+        </div>
+
+        <div class="holding-container">
+          <div class="selfcare-top-container">
+            <img
+              class="top-container-image"
+              src="images/icon-self-care.svg"
+              alt=""
+            />
+          </div>
+          <div class="Selfcare_container">
+            <span class="top-row">
+              <p class="title">Self Care</p>
+              <img src="images/icon-ellipsis.svg" alt=""
+            /></span>
+
+            <span class="h1-and-time" ><h1 class="current-time" id="timeForselfcare"></h1>
+
+              <p class="last-week" id="timeForselfcareLastWeek"></p></span>
+
+            
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>
